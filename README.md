@@ -1,0 +1,57 @@
+# SOLIDWORKS Macro Library
+
+Every macro from my SOLIDWORKS projects, packaged together for one-step
+installation. If you only want one of them, each has its own repository with its
+source, changelog and development notes — links below.
+
+Works with SOLIDWORKS 2022, 2024 and 2025.
+
+## What's in it
+
+| Button | Macros | What it does |
+|---|---|---|
+| **Apply Colours** | 3 | Colours every geometrically unique body so anything different stands out, and clears those colours again |
+| **Draw Squound** | 1 | Draws a rounded rectangle into the sketch you have open |
+| **Screenshot HD** | 1 | Exports the current view to a PNG at any pixel size, with a live preview |
+| **Themes** | 5 | Switches the interface and viewport background between light and dark |
+
+## Install
+
+Download the [latest release](../../releases/latest) and unzip it somewhere
+permanent — the macros run from where you put them, so a temporary folder is a bad
+choice.
+
+**With [MacroDeck](https://github.com/james-debono/macrodeck)** — point it at the
+unzipped folder and every macro appears as a toolbar button, with icons and hover
+text already set up. Folders holding several macros become drop-downs.
+
+**Without MacroDeck** — the `.swp` files are ordinary SOLIDWORKS macros. Use
+**Tools > Customize > Commands > Macro** to put one on a toolbar, or
+**Tools > Macro > Run** to run it directly. Each macro folder holds its icon as
+`icon.png` and a one-line description.
+
+## Individual repositories
+
+Each of these holds the readable source, the full changelog, and development notes
+covering the SOLIDWORKS API findings behind it:
+
+- [solidworks-apply-colours](https://github.com/james-debono/solidworks-apply-colours)
+- [solidworks-draw-squound](https://github.com/james-debono/solidworks-draw-squound)
+- [solidworks-screenshot-hd](https://github.com/james-debono/solidworks-screenshot-hd)
+- [solidworks-themes](https://github.com/james-debono/solidworks-themes)
+
+## About this repository
+
+**The contents are generated.** Every file here is copied from one of the project
+repositories above by a build script, so that this collection can never drift from
+the individual projects. Fixes and changes belong in the project repository, not
+here.
+
+Each macro carries its version, author and the full licence text in its own header,
+so a `.swp` passed on by itself still says what it is and how it may be used.
+
+## Licence
+
+MIT — see [LICENSE](LICENSE). Free to use, modify and share.
+
+Written by James Debono.
