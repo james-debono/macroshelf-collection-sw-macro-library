@@ -6,3 +6,6 @@ $RECYCLE.BIN/
 # Office / VBA temporary files
 ~$*
 *.bak
+
+# Local marker written by build-library.ps1; the README explains this already
+DO NOT EDIT - generated.txt

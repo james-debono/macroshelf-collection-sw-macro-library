@@ -1,9 +1,0 @@
-﻿This folder is GENERATED. Do not edit it by hand.
-
-Every file here is copied from a project's macros\ folder by build-library.ps1
-in the parent directory. Hand edits are discarded the next time it runs.
-
-To change a macro, edit its project and re-run:
-    powershell -ExecutionPolicy Bypass -File build-library.ps1
-
-Generated 2026-08-15 10:56
