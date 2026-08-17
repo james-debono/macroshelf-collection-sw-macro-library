@@ -55,3 +55,9 @@ so a `.swp` passed on by itself still says what it is and how it may be used.
 MIT — see [LICENSE](LICENSE). Free to use, modify and share.
 
 Written by James Debono.
+
+## Trademarks
+
+SOLIDWORKS is a registered trademark of Dassault Systèmes SolidWorks Corporation.
+This project is independent: it is not affiliated with, endorsed by, or sponsored
+by Dassault Systèmes, and uses only the published SOLIDWORKS API.
