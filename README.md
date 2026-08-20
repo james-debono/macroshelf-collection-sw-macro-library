@@ -1,8 +1,13 @@
-# SOLIDWORKS Macro Library
+# MacroDeck Collection
 
 Every macro from my SOLIDWORKS projects, packaged together for one-step
 installation. If you only want one of them, each has its own repository with its
 source, changelog and development notes — links below.
+
+The macros are ordinary `.swp` files and work on their own. The collection is
+arranged as a [MacroDeck](https://github.com/james-debono/macrodeck-sw-addin)
+library, which is where the name comes from — point MacroDeck at it and every
+macro appears as a toolbar button, already set up.
 
 Works with SOLIDWORKS 2022, 2024 and 2025.
 
@@ -21,7 +26,7 @@ Download the [latest release](../../releases/latest) and unzip it somewhere
 permanent — the macros run from where you put them, so a temporary folder is a bad
 choice.
 
-**With [MacroDeck](https://github.com/james-debono/macrodeck)** — point it at the
+**With [MacroDeck](https://github.com/james-debono/macrodeck-sw-addin)** — point it at the
 unzipped folder and every macro appears as a toolbar button, with icons and hover
 text already set up. Folders holding several macros become drop-downs.
 
@@ -35,10 +40,10 @@ text already set up. Folders holding several macros become drop-downs.
 Each of these holds the readable source, the full changelog, and development notes
 covering the SOLIDWORKS API findings behind it:
 
-- [solidworks-apply-colours](https://github.com/james-debono/solidworks-apply-colours)
-- [solidworks-draw-squound](https://github.com/james-debono/solidworks-draw-squound)
-- [solidworks-screenshot-hd](https://github.com/james-debono/solidworks-screenshot-hd)
-- [solidworks-themes](https://github.com/james-debono/solidworks-themes)
+- [apply-colours-sw-macro](https://github.com/james-debono/apply-colours-sw-macro)
+- [draw-squound-sw-macro](https://github.com/james-debono/draw-squound-sw-macro)
+- [screenshot-hd-sw-macro](https://github.com/james-debono/screenshot-hd-sw-macro)
+- [themes-sw-macro](https://github.com/james-debono/themes-sw-macro)
 
 ## About this repository
 
