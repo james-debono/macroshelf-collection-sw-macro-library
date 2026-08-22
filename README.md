@@ -1,13 +1,15 @@
 # MacroDeck Collection
 
 Every macro from my SOLIDWORKS projects, packaged together for one-step
-installation. If you only want one of them, each has its own repository with its
-source, changelog and development notes — links below.
+installation and arranged the way they should appear on a toolbar.
 
-The macros are ordinary `.swp` files and work on their own. The collection is
-arranged as a [MacroDeck](https://github.com/james-debono/macrodeck-sw-addin)
-library, which is where the name comes from — point MacroDeck at it and every
-macro appears as a toolbar button, already set up.
+The macros are ordinary `.swp` files and work on their own. The collection is laid
+out as a [MacroDeck](https://github.com/james-debono/macrodeck-sw-addin) library,
+which is where the name comes from — point MacroDeck at it and every macro appears
+as a toolbar button, already set up.
+
+If you only want one of them, each has its own repository with its source,
+changelog and development notes — links below.
 
 Works with SOLIDWORKS 2022, 2024 and 2025.
 
@@ -16,19 +18,19 @@ Works with SOLIDWORKS 2022, 2024 and 2025.
 | Button | Macros | What it does |
 |---|---|---|
 | **Apply Colours** | 3 | Colours every geometrically unique body so anything different stands out, and clears those colours again |
-| **Draw Squound** | 1 | Draws a rounded rectangle into the sketch you have open |
-| **Screenshot HD** | 1 | Exports the current view to a PNG at any pixel size, with a live preview |
+| **Draw Rounded Rectangle** | 1 | Draws a rounded rectangle into the sketch you have open |
+| **Screenshot High Res** | 1 | Exports the current view to an image at any pixel size, with a live preview |
 | **Themes** | 5 | Switches the interface and viewport background between light and dark |
 
 ## Install
 
 Download the [latest release](../../releases/latest) and unzip it somewhere
 permanent — the macros run from where you put them, so a temporary folder is a bad
-choice.
+choice. You get a single `MacroDeck Collection` folder.
 
-**With [MacroDeck](https://github.com/james-debono/macrodeck-sw-addin)** — point it at the
-unzipped folder and every macro appears as a toolbar button, with icons and hover
-text already set up. Folders holding several macros become drop-downs.
+**With [MacroDeck](https://github.com/james-debono/macrodeck-sw-addin)** — point it
+at the unzipped folder and every macro appears as a toolbar button, with icons and
+hover text already set up. Folders holding several macros become drop-downs.
 
 **Without MacroDeck** — the `.swp` files are ordinary SOLIDWORKS macros. Use
 **Tools > Customize > Commands > Macro** to put one on a toolbar, or
@@ -37,20 +39,46 @@ text already set up. Folders holding several macros become drop-downs.
 
 ## Individual repositories
 
-Each of these holds the readable source, the full changelog, and development notes
-covering the SOLIDWORKS API findings behind it:
+Each holds the readable source, the full changelog, and development notes covering
+the SOLIDWORKS API findings behind it.
 
-- [apply-colours-sw-macro](https://github.com/james-debono/apply-colours-sw-macro)
-- [draw-squound-sw-macro](https://github.com/james-debono/draw-squound-sw-macro)
-- [screenshot-hd-sw-macro](https://github.com/james-debono/screenshot-hd-sw-macro)
-- [themes-sw-macro](https://github.com/james-debono/themes-sw-macro)
+**Apply Colours**
+
+- [apply-unique-colours-sw-macro](https://github.com/james-debono/apply-unique-colours-sw-macro)
+- [remove-body-and-component-appearances-sw-macro](https://github.com/james-debono/remove-body-and-component-appearances-sw-macro)
+- [remove-all-appearances-sw-macro](https://github.com/james-debono/remove-all-appearances-sw-macro)
+
+**Sketch**
+
+- [draw-rounded-rectangle-sw-macro](https://github.com/james-debono/draw-rounded-rectangle-sw-macro)
+
+**Export**
+
+- [screenshot-high-res-sw-macro](https://github.com/james-debono/screenshot-high-res-sw-macro)
+
+**Themes**
+
+- [set-ui-theme-dark-sw-macro](https://github.com/james-debono/set-ui-theme-dark-sw-macro)
+- [set-ui-theme-light-sw-macro](https://github.com/james-debono/set-ui-theme-light-sw-macro)
+- [set-background-colour-dark-sw-macro](https://github.com/james-debono/set-background-colour-dark-sw-macro)
+- [set-background-colour-light-sw-macro](https://github.com/james-debono/set-background-colour-light-sw-macro)
+- [set-background-scene-sw-macro](https://github.com/james-debono/set-background-scene-sw-macro)
 
 ## About this repository
 
-**The contents are generated.** Every file here is copied from one of the project
-repositories above by a build script, so that this collection can never drift from
-the individual projects. Fixes and changes belong in the project repository, not
-here.
+**This repository owns the arrangement; the macros come from elsewhere.**
+
+- The **folder structure, icons and `description.md` files are maintained here.**
+  They are what turns a pile of macros into a toolbar: which macros group into a
+  drop-down, what that drop-down is called, and what each button shows on hover.
+  None of that belongs to any single macro, so it lives here.
+- The **`.swp` files are copies**, refreshed from the individual repositories by
+  `build-library.ps1`. Don't edit a macro here — fix it in its own repository and
+  re-run the script, or the change is lost on the next refresh.
+
+Grouping is deliberately kept separate from the macros themselves. Moving a macro
+into a different drop-down, or renaming a drop-down, is a folder change here and
+touches nothing else.
 
 Each macro carries its version, author and the full licence text in its own header,
 so a `.swp` passed on by itself still says what it is and how it may be used.
