@@ -87,7 +87,8 @@ so a `.swp` passed on by itself still says what it is and how it may be used.
 
 MIT — see [LICENSE](LICENSE). Free to use, modify and share.
 
-Written by James Debono.
+Written by James Debono, with AI assistance. Everything here was tested by
+hand in SOLIDWORKS — nothing that touches the API can be verified any other way.
 
 ## Trademarks
 
