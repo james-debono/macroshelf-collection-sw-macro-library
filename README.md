@@ -1,11 +1,11 @@
-# MacroDeck Collection
+# MacroShelf Collection
 
 Every macro from my SOLIDWORKS projects, packaged together for one-step
 installation and arranged the way they should appear on a toolbar.
 
 The macros are ordinary `.swp` files and work on their own. The collection is laid
-out as a [MacroDeck](https://github.com/james-debono/macrodeck-sw-addin) library,
-which is where the name comes from — point MacroDeck at it and every macro appears
+out as a [MacroShelf](https://github.com/james-debono/macroshelf-sw-addin) library,
+which is where the name comes from — point MacroShelf at it and every macro appears
 as a toolbar button, already set up.
 
 If you only want one of them, each has its own repository with its source,
@@ -26,13 +26,13 @@ Works with SOLIDWORKS 2022, 2024 and 2025.
 
 Download the [latest release](../../releases/latest) and unzip it somewhere
 permanent — the macros run from where you put them, so a temporary folder is a bad
-choice. You get a single `MacroDeck Collection` folder.
+choice. You get a single `MacroShelf Collection` folder.
 
-**With [MacroDeck](https://github.com/james-debono/macrodeck-sw-addin)** — point it
+**With [MacroShelf](https://github.com/james-debono/macroshelf-sw-addin)** — point it
 at the unzipped folder and every macro appears as a toolbar button, with icons and
 hover text already set up. Folders holding several macros become drop-downs.
 
-**Without MacroDeck** — the `.swp` files are ordinary SOLIDWORKS macros. Use
+**Without MacroShelf** — the `.swp` files are ordinary SOLIDWORKS macros. Use
 **Tools > Customize > Commands > Macro** to put one on a toolbar, or
 **Tools > Macro > Run** to run it directly. Each macro folder holds its icon as
 `icon.png` and a one-line description.
