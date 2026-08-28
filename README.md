@@ -13,6 +13,11 @@ changelog and development notes — links below.
 
 Works with SOLIDWORKS 2022, 2024 and 2025.
 
+> **Built for the [MacroShelf](https://github.com/james-debono/macroshelf-sw-addin) add-in.**
+> The folder structure *is* the toolbar layout — buttons, drop-down grouping,
+> icons and hover text are all already in place. Install MacroShelf, point it at
+> this folder, and there is nothing else to set up.
+
 ## What's in it
 
 | Button | Macros | What it does |
