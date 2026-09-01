@@ -11,7 +11,8 @@ as a toolbar button, already set up.
 If you only want one of them, each has its own repository with its source,
 changelog and development notes — links below.
 
-Works with SOLIDWORKS 2022, 2024 and 2025.
+**Tested on SOLIDWORKS 2022, 2024 and 2025** — those are the versions I
+have. Other versions are likely to work; they are simply untested.
 
 > **Built for the [MacroShelf](https://github.com/james-debono/macroshelf-sw-addin) add-in.**
 > The folder structure *is* the toolbar layout — buttons, drop-down grouping,
