@@ -23,7 +23,7 @@ work; they are simply untested.
 
 | Button | Macros | What it does |
 |---|---|---|
-| **Apply Colours** | 3 | Colours every geometrically unique body so anything different stands out, and clears those colours again |
+| **Apply Colours** | 4 | Colours every geometrically unique body so anything different stands out, and clears those colours again |
 | **Draw Rounded Rectangle** | 1 | Draws a rounded rectangle into the sketch you have open |
 | **Screenshot High Res** | 1 | Exports the current view to an image at any pixel size, with a live preview |
 | **Themes** | 5 | Switches the interface and viewport background between light and dark |
@@ -53,6 +53,7 @@ the SOLIDWORKS API findings behind it.
 - [apply-unique-colours-sw-macro](https://github.com/james-debono/apply-unique-colours-sw-macro)
 - [remove-body-and-component-appearances-sw-macro](https://github.com/james-debono/remove-body-and-component-appearances-sw-macro)
 - [remove-all-appearances-sw-macro](https://github.com/james-debono/remove-all-appearances-sw-macro)
+- [nuke-all-appearances-sw-macro](https://github.com/james-debono/nuke-all-appearances-sw-macro)
 
 **Sketch**
 
