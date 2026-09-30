@@ -23,6 +23,7 @@ work; they are simply untested.
 
 | Button | Macros | What it does |
 |---|---|---|
+| **Add Isometric Views** | 1 | Adds eight named isometric views to a part or assembly, one from each corner of the model |
 | **Apply Colours** | 4 | Colours every geometrically unique body so anything different stands out, and clears those colours again |
 | **Draw Rounded Rectangle** | 1 | Draws a rounded rectangle into the sketch you have open |
 | **Screenshot High Res** | 1 | Exports the current view to an image at any pixel size, with a live preview |
@@ -62,6 +63,10 @@ the SOLIDWORKS API findings behind it.
 **Export**
 
 - [screenshot-high-res-sw-macro](https://github.com/james-debono/screenshot-high-res-sw-macro)
+
+**Views**
+
+- [add-isometric-views-sw-macro](https://github.com/james-debono/add-isometric-views-sw-macro)
 
 **Themes**
 

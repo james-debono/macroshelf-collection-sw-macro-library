@@ -1,0 +1,1 @@
+Adds eight named isometric views to the open part or assembly, one from each corner of the model, all at the same zoom. Run it again after the model changes size to refresh them.
